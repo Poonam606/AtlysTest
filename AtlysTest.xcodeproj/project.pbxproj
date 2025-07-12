@@ -14,6 +14,10 @@
 		680520672E222B8500034FB7 /* AtlysTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680520662E222B8500034FB7 /* AtlysTestTests.swift */; };
 		680520712E222B8500034FB7 /* AtlysTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680520702E222B8500034FB7 /* AtlysTestUITests.swift */; };
 		680520732E222B8500034FB7 /* AtlysTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680520722E222B8500034FB7 /* AtlysTestUITestsLaunchTests.swift */; };
+		68D3F4792E222C5600A98C32 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3F4782E222C5600A98C32 /* CardView.swift */; };
+		68D3F47B2E222C9D00A98C32 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3F47A2E222C9D00A98C32 /* Card.swift */; };
+		68D3F47D2E222CD800A98C32 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3F47C2E222CD800A98C32 /* CarouselView.swift */; };
+		68D3F4802E222EA000A98C32 /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3F47F2E222EA000A98C32 /* CarouselViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		6805206C2E222B8500034FB7 /* AtlysTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlysTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680520702E222B8500034FB7 /* AtlysTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlysTestUITests.swift; sourceTree = "<group>"; };
 		680520722E222B8500034FB7 /* AtlysTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlysTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68D3F4782E222C5600A98C32 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		68D3F47A2E222C9D00A98C32 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		68D3F47C2E222CD800A98C32 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		68D3F47F2E222EA000A98C32 /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		680520542E222B8300034FB7 /* AtlysTest */ = {
 			isa = PBXGroup;
 			children = (
+				68D3F47E2E222E8600A98C32 /* ViewModel */,
+				680520802E222BAA00034FB7 /* Model */,
+				6805207F2E222B9900034FB7 /* View */,
 				680520552E222B8300034FB7 /* AtlysTestApp.swift */,
 				680520572E222B8300034FB7 /* ContentView.swift */,
 				680520592E222B8500034FB7 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				680520722E222B8500034FB7 /* AtlysTestUITestsLaunchTests.swift */,
 			);
 			path = AtlysTestUITests;
+			sourceTree = "<group>";
+		};
+		6805207F2E222B9900034FB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68D3F4782E222C5600A98C32 /* CardView.swift */,
+				68D3F47C2E222CD800A98C32 /* CarouselView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		680520802E222BAA00034FB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68D3F47A2E222C9D00A98C32 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68D3F47E2E222E8600A98C32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				68D3F47F2E222EA000A98C32 /* CarouselViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D3F47D2E222CD800A98C32 /* CarouselView.swift in Sources */,
 				680520582E222B8300034FB7 /* ContentView.swift in Sources */,
+				68D3F4792E222C5600A98C32 /* CardView.swift in Sources */,
 				680520562E222B8300034FB7 /* AtlysTestApp.swift in Sources */,
+				68D3F4802E222EA000A98C32 /* CarouselViewModel.swift in Sources */,
+				68D3F47B2E222C9D00A98C32 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
