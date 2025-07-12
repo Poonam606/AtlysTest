@@ -1,5 +1,4 @@
 ##CarouselView
-
 A SwiftUI carousel component powered by an MVVM-style CarouselViewModel. This lightweight library provides a smooth, interactive card carousel with drag gestures, depth effects, and customizable sizing.
 
 ##Features
